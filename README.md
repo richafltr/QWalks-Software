@@ -1,21 +1,3 @@
-
-graph TD
-    A[Input State (Particles)]
-    B[Encoder]
-    C[Latent Graph (Nodes and Edges)]
-    D[Processor (Message-Passing)]
-    E[Updated Latent Graph]
-    F[Decoder]
-    G[Predicted Future State]
-    
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-
-
 # QWalks Software
 # Description
 
